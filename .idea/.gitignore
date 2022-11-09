@@ -48,7 +48,7 @@
 # -----------------------------------------------------------------
 
 #idea
-/.idea/
+.idea
 
 # ignore all files starting with . or ~
 .*
