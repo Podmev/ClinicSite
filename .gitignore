@@ -51,7 +51,7 @@
 .idea
 
 # ignore all files starting with . or ~
-.*
+.gitignore
 ~*
 
 # ignore node/grunt dependency directories
