@@ -5,7 +5,7 @@ Site for dental clinic
 
 # Website folder structure
 
-![Website folder structure](https://github.com/Podmev/ClinicSite/blob/master/images/WebsiteFolderStructure.png?raw=true) "Website folder structure")
+![Website folder structure](https://github.com/Podmev/ClinicSite/blob/master/images/WebsiteFolderStructure.png?raw=true)
 
 Note: except for the Project (Root) Folder all files and folders should be (a) lower case, (b) have no spaces in the name, (c) start with a letter or number and not a special character.
 
