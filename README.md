@@ -19,6 +19,8 @@ Note: except for the Project (Root) Folder all files and folders should be (a) l
 
 **JavaScript Folder**: all JavaScript files go here. They end in .js. You can name the folder javascript or js.
 
+## [More details here](https://webexpe.com/blog/folder-structure-for-web-development/)
+
 # Git
 
 ### Git flow
