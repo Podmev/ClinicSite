@@ -19,14 +19,14 @@ textarea {
 }
 
 body {
-    background-image: url(https://img.freepik.com/premium-photo/chocolate-melted-chocolate-coffee-almond-white-background_185193-10702.jpg?w=2000);
+    background-color: white;
     background-size: cover;
 }
 
 header {
     padding: 24px 0;
-    background-color: #5c4128;
-    color: rgb(255, 248, 241);
+    background-color: #22565a;
+    color: white;
 }
 
 header nav li {
@@ -37,7 +37,7 @@ header nav li {
 }
 
 header nav li a {
-    color: rgb(255, 248, 241);
+    color: white;
     text-decoration: none;
 }
 
@@ -71,7 +71,7 @@ section h2 {
 
 
 section {
-    color: #5c4128;
+    color: black;
 }
 
 section p {
@@ -142,7 +142,7 @@ textarea:focus {
 }
 
 footer {
-    background-color: #5c4128;
+    background-color: #22565a;
     color: rgb(255, 248, 241);
     padding: 16px 0px;
 }
@@ -173,5 +173,13 @@ justify-content: space-between;
 }
 
 #treatments{
-    background-color: rgb(18, 99, 99);
+    background-color: #3f8e93;
 }
+
+.map{
+    position: relative;
+ }
+
+
+
+
