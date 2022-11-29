@@ -3,6 +3,10 @@ Site for dental clinic
 
 [Dashboard](https://trello.com/b/8GDwPlRE/clinic-site)
 
+[Clinic site](https://rsdentalclinic.com.br)
+
+[Google site](https://dentalclinicnovacidade.negocio.site/?utm_source=gmb&utm_medium=referral)
+
 # Website folder structure
 
 ![Website folder structure](https://github.com/Podmev/ClinicSite/blob/master/images/WebsiteFolderStructure.png?raw=true)
