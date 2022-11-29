@@ -169,6 +169,7 @@ section h3 {
 .wrapper .box {
     background: #fff;
     width: calc(33% - 10px);
+    height: 300px;
     padding: 25px;
     border-radius: 20px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.15);
@@ -186,6 +187,8 @@ section h3 {
     justify-content: space-between;
     padding-top: 10px;
 }
+
+
 
 .box .info .name {
     font-weight: 600;
@@ -286,7 +289,7 @@ footer .container {
 
 td {
     width: 50%;
-    height: auto;
+    height: 400px;
 }
 
 td p{
