@@ -99,7 +99,7 @@ section h3 {
 }
 
 #main-page {
-    background-image: url("/ClinicSite/images/pexels-shiny-diamond-3762398.jpg");
+    background-image: url("./images/pexels-shiny-diamond-3762398.jpg");
     background-size: cover;
     height: 550px;
     width: 100%;
