@@ -99,7 +99,7 @@ section h3 {
 }
 
 #main-page {
-    background-image: url("/ClinicSite/images/background-woman.png");
+    background-image: url("./images/background-woman.png");
     background-size:cover;
     height: 550px;
     width: 100%;
