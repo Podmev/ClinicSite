@@ -67,7 +67,7 @@ header .container {
 
 header .container,
 section .container {
-    display: flex;
+    /*display: flex;*/
     align-items: center;
     justify-content: space-between;
 }
@@ -119,6 +119,12 @@ section h3 {
     color: rgb(10, 44, 58);
 }
 
+.treatments-list{
+    padding: 3em;
+    display: grid;
+    grid-gap: 2em;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr))
+}
 
 .column {
     float: left;
@@ -295,4 +301,8 @@ td {
 td p{
     width: 100%;
     text-align: left;
+}
+/*utils*/
+.border-blue{
+    border: 1px dotted blue
 }
