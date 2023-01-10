@@ -346,6 +346,10 @@ td p{
     width: 100%;
     text-align: left;
 }
+
+h2 {
+    margin-left: 10px;
+}
 /*utils*/
 .border-blue{
     border: 1px dotted blue
