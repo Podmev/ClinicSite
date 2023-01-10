@@ -50,7 +50,6 @@ header nav li {
 }
 
 header nav {
-    vertical-align: middle;
     margin-right: 20px;
 }
 
@@ -93,7 +92,11 @@ section .container {
     justify-content: space-between;
 }
 
-.container img {
+.logo-img {
+    width: 100px;
+    height: 100px;
+}
+.icon-image {
     width: 100px;
     height: 100px;
 }
@@ -112,7 +115,7 @@ section {
 
 section p {
     margin-bottom: 8px;
-    width: 45%;
+    /*width: 45%;*/
 }
 
 section h3 {
@@ -316,8 +319,49 @@ section h3 {
     text-decoration: none;
 }
 
-.sobre p{
+.about-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-text{
     text-align: left;
+    padding: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.about-pics {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 20px;
+}
+.about-pics img {
+  width: 600px;
+  height: 600px;
+}
+
+@media (max-width: 900px){
+    .about-list {
+        display: block;
+    }
+
+    .about-text {
+        width: 100%;
+    }
+
+    .about-pics{
+       padding-left: 0;
+       padding-right: 0;
+       display: flex;
+       align-items: center;
+    }
+
+    .about-pics img {
+       width: 300px;
+       height: 300px;
+       margin-left: auto;
+       margin-right: auto;
+    }
 }
 
 footer {
@@ -331,20 +375,11 @@ footer .container {
     align-items: center;
     justify-content: space-between;
 }
+
 /*other elements*/
 
 .container p {
     text-align: center;
-}
-
-td {
-    width: 50%;
-    height: 400px;
-}
-
-td p{
-    width: 100%;
-    text-align: left;
 }
 
 h2 {
