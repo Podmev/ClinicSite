@@ -6,7 +6,7 @@
 
 header {
     font-family: 'Caveat', cursive;
-    font-size: 30px;
+    font-size: 158%;
 }
 
 body,
@@ -14,7 +14,7 @@ input,
 textarea {
     font-family: 'Josefin Sans', sans-serif;
     background-color: rgb(255, 248, 241);
-    font-size: 20px;
+    font-size: 120%;
     font-weight: 2000px;
 }
 
@@ -29,16 +29,49 @@ header {
     color: white;
 }
 
+header .container {
+    display: flex;
+    overflow: hidden;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.header-img {
+    text-align: center;
+    display: flex;
+    padding: 10px;
+}
+
 header nav li {
     margin-left: 16px;
-    font-size: 24px;
+    font-size: 90%;
     margin-right: 8px;
     display: inline;
+}
+
+header nav {
+    vertical-align: middle;
+    margin-right: 20px;
 }
 
 header nav li a {
     color: white;
     text-decoration: none;
+}
+
+/* Add media queries for responsiveness -
+when the screen is 500px wide or less,
+stack the links on top of each*/
+@media screen and (max-width: 900px) {
+  header .container {
+    display: block;
+  }
+
+  header nav li{
+     display: block;
+     text-align: center;
+     margin: 20px;
+  }
 }
 
 .container-button {
@@ -53,21 +86,6 @@ header nav li a {
     margin: 0 auto;
 }
 
-.header-img {
-    width: 500px;
-    display: flex;
-    justify-content: flex-start;
-}
-
-
-
-header .container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-header .container,
 section .container {
     /*display: flex;*/
     align-items: center;
