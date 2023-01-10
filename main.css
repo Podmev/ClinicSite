@@ -126,6 +126,11 @@ section h3 {
     width: 100%;
 }
 
+#main-page a{
+    color: inherit; /* remove blue color of link */
+    text-decoration: inherit; /* no underline */
+}
+
 #main-page h2 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 330%;
