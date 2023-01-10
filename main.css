@@ -78,6 +78,7 @@ stack the links on top of each*/
     max-width: 1200px;
     width: 100%;
     margin: 0 auto;
+    padding: 15px;
 }
 
 .container {
@@ -121,14 +122,14 @@ section h3 {
 #main-page {
     background-image: url("./images/background-woman.png");
     background-size:cover;
-    height: 550px;
+    height: auto;
     width: 100%;
 }
 
 #main-page h2 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 330%;
-    text-align: justify;
+    text-align: left;
     color:rgb(10, 44, 58);
 
 }
@@ -138,6 +139,25 @@ section h3 {
     padding-top: 5%;
     color: rgb(10, 44, 58);
 }
+
+@media (max-width: 900px){
+    #main-page {
+        background-image: url("./images/background-woman-mobile.webp");
+        background-blend-mode: multiply;
+        background-color: rgba(150,150,150,0.9) !important
+    }
+
+    #main-page h2 {
+        color:white;
+
+    }
+
+    #main-page h3{
+        color: white;
+    }
+}
+
+
 
 .treatments-list{
     padding: 3em;
@@ -214,8 +234,6 @@ section h3 {
     padding-top: 10px;
 }
 
-
-
 .box .info .name {
     font-weight: 600;
     font-size: 17px;
@@ -279,12 +297,6 @@ section h3 {
     justify-content: space-between;
 }
 
-footer {
-    background-color: #22565a;
-    color: rgb(255, 248, 241);
-    padding: 16px 0px;
-}
-
 .social-links li {
     display: inline;
     margin-right: 8px;
@@ -299,18 +311,25 @@ footer {
     text-decoration: none;
 }
 
+.sobre p{
+    text-align: left;
+}
+
+footer {
+    background-color: #22565a;
+    color: rgb(255, 248, 241);
+    padding: 16px 0px;
+}
+
 footer .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
+/*other elements*/
 
 .container p {
     text-align: center;
-}
-
-.sobre p{
-    text-align: left;
 }
 
 td {
